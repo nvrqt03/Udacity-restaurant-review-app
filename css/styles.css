@@ -260,17 +260,21 @@ nav h1 a {
 #reviews-list {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
-  display: block;
+  border: 2px solid #f3f3f3;
+  /*display: block;*/
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  max-width: 470px;
+  width: 80%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
